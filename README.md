@@ -15,8 +15,8 @@ unstop-Linkenite-email-challenge/
 ## How to Run
 
 1. Clone the repository :
-   git clone https://github.com/Venkatasaikishor/unstop-Linkenite-email-challenge.git, 
-   cd unstop-Linkenite-email-challenge
+git clone https://github.com/Venkatasaikishor/unstop-Linkenite-email-challenge.git 
+cd unstop-Linkenite-email-challenge
    
 2.Install dependencies :
 pip install -r requirements.txt
