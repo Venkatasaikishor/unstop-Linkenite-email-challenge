@@ -11,6 +11,7 @@ unstop-Linkenite-email-challenge/
 ├── processed_emails.csv # Output file with classified issues and priorities
 ├── README.md # Documentation
 └── requirements.txt # Dependencies (pandas)
+
 ## How to Run
 
 1. Clone the repository :
