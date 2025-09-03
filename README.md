@@ -13,20 +13,20 @@ unstop-Linkenite-email-challenge/
 └── requirements.txt # Dependencies (pandas)
 ## How to Run
 
-1. Clone the repository
-   git clone https://github.com/Venkatasaikishor/unstop-Linkenite-email-challenge.git
-   cd unstop-Linkenite-email-challenge
+1. Clone the repository :
+ git clone https://github.com/Venkatasaikishor/unstop-Linkenite-email-challenge.git
+ cd unstop-Linkenite-email-challenge
    
-2.Install dependencies
+2.Install dependencies :
 pip install -r requirements.txt
 
-3.Place the input file
+3.Place the input file :
 Put your emails.csv file in this folder.
 
-4.Run the script
+4.Run the script :
 python solution.py
 
-5.Check the output
+5.Check the output :
 Open processed_emails.csv to see classified tickets with priority and issue type.
 
 Example Output
