@@ -1,10 +1,13 @@
 # Unstop Linkenite Email Challenge
 
-This project processes customer email data to:
-- Identify **issue types** such as Login Issues, Billing Errors, Downtime, and Integration Queries.
-- Assign **priority levels**: High, Medium, or Low.
+This project is a solution for the **Unstop Linkenite Email Challenge**.  
+It processes customer email data to:
+- **Classify issue types** (e.g., Login Issue, Billing Issue, Downtime, Integration Query, General Query)
+- **Assign priority levels** (High, Medium, Low) based on urgency keywords.
 
-## Project Structure
+
+## 📂 Project Structure
+
 unstop-Linkenite-email-challenge/
 ├── emails.csv # Input file provided in the challenge
 ├── solution.py # Python script for processing
@@ -12,34 +15,44 @@ unstop-Linkenite-email-challenge/
 ├── README.md # Documentation
 └── requirements.txt # Dependencies (pandas)
 
-## How to Run
+## 🚀 How to Run
 
-1. Clone the repository :
-git clone https://github.com/Venkatasaikishor/unstop-Linkenite-email-challenge.git 
+### 1. Clone the repository
+
+git clone https://github.com/Venkatasaikishor/unstop-Linkenite-email-challenge.git
 cd unstop-Linkenite-email-challenge
    
-2.Install dependencies :
+2. Install dependencies
 pip install -r requirements.txt
 
-3.Place the input file :
-Put your emails.csv file in this folder.
+3. Place your input file
 
-4.Run the script :
+Put the provided emails.csv in the root folder of the repository.
+
+4. Run the script
 python solution.py
 
-5.Check the output :
-Open processed_emails.csv to see classified tickets with priority and issue type.
+5. Check the output
 
-Example Output
-sender	subject	body	Issue_Type	Priority
-alice@example.com,	Urgent request: system access, Unable to log in since yesterday, Login Issue,	High
-diana@client.co,	Help required with account, Verification email never arrived,	Integration Query,	Medium
+The processed data with Issue_Type and Priority will be available in:
+processed_emails.csv
 
-Requirements :
+📊 Example Output
+
+| sender                                        | subject                       | body                             | Issue\_Type       | Priority |
+| --------------------------------------------- | ----------------------------- | -------------------------------- | ----------------- | -------- |
+| [alice@example.com](mailto:alice@example.com) | Urgent request: system access | Unable to log in since yesterday | Login Issue       | High     |
+| [diana@client.co](mailto:diana@client.co)     | Help required with account    | Verification email never arrived | Integration Query | Medium   |
+
+
+🛠 Requirements
+
 Python 3.8+
+
 pandas
 
-Author :
+👤 Author
+
 Pilli Venkata Sai Kishor
 `requirements.txt`
 
