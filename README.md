@@ -32,24 +32,21 @@ Open processed_emails.csv to see classified tickets with priority and issue type
 
 Example Output
 sender	subject	body	Issue_Type	Priority
-alice@example.com	Urgent request: system access	Unable to log in since yesterday	Login Issue	High
-diana@client.co	Help required with account	Verification email never arrived	Integration Query	Medium
+alice@example.com,	Urgent request: system access, Unable to log in since yesterday, Login Issue,	High
+diana@client.co,	Help required with account, Verification email never arrived,	Integration Query,	Medium
 
-Requirements
+Requirements :
 Python 3.8+
-
 pandas
 
-Author
+Author :
 Pilli Venkata Sai Kishor
+`requirements.txt`
 
-### `requirements.txt`
-pandas
-
-### `emails.csv`
+pandas :
+`emails.csv`
 - Use the dataset provided in the challenge.
 - Ensure it’s placed in the same directory as `solution.py`.
-
 
 ### Steps to Push to GitHub
 cd unstop-Linkenite-email-challenge
